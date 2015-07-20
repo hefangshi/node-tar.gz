@@ -49,6 +49,9 @@ class TarGz
                     reader =  fstream.Reader
                         path : source
                         type : type
+                        filter : (entry) ->
+                            entry.props.mode |= (entry.props.mode >>> 2) & 0x49
+                            return true
 
                 props = noProprietary : false if self.proprietary == true
                 props = noProprietary : true if self.proprietary == false

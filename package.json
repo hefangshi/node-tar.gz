@@ -1,6 +1,6 @@
 {
-    "name": "tar.gz",
-    "version": "0.1.1",
+    "name": "yog-tar.gz",
+    "version": "0.1.2",
     "description": "Native gzip compression and decompression utility for Node.js.",
     "keywords": [
         "compression",
@@ -16,7 +16,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "http://github.com/cranic/node-tar.gz.git"
+        "url": "http://github.com/hefangshi/node-tar.gz.git"
     },
     "author": "Cranic Tecnologia <contato@cranic.com.br>",
     "contributors": [
@@ -44,7 +44,7 @@
         "targz": "./bin/targz"
     },
     "bugs": {
-        "url": "http://github.com/cranic/node-tar.gz/issues"
+        "url": "http://github.com/hefangshi/node-tar.gz/issues"
     },
     "license" : "MIT <http://opensource.org/licenses/MIT>"
 }
