@@ -1,6 +1,6 @@
 {
     "name": "yog-tar.gz",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Native gzip compression and decompression utility for Node.js.",
     "keywords": [
         "compression",
@@ -23,8 +23,8 @@
         "Alan Hoffmeister <alan@cranic.com.br>"
     ],
     "dependencies": {
-        "fstream": "0.1.x",
-        "tar": "0.1.x",
+        "fstream": "1.0.8",
+        "tar": "2.2.1",
         "commander": "1.1.x"
     },
     "devDependencies": {
